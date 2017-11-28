@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	
+	
+}
+
+@font-face{
+	font-weight:normal;
+	font-style:normal;
+	
+}
+
+Body {
+	
+	background: 004B6E;
+	color: #f60;
+	font-family:Arial, Helvetica, sans-serif;
+	font-zise:2em;
+	
+}
+h1
+{
+	color:#F90;
+	margin: 0.25em auto;
+	text-align: center;
+	font-size: 2em;
+	text-shadow: 5px 5px 10px rgba(255,153,0,1);
+}
+header,footer{
+	background: #dedede;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+	
+}
+section#contenedor{
+	margin:02em;
+	maxwidth:: 960px;
+	padding: 0;
+	text-align:center;
+}
+section#principal aside{
+	background: #FF9;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.25em auto;
+	max-width: 960px;
+	max-heigh: 200px:
+	padding:0.25em;
+	text-align:center;
+	vertical-align:central;
+	width::65%;
+}
+article{
+	background:#000;
+	border-radius:0.5em;
+	min-height:140px;
+	padding:0.25;
+}
+aside{
+	width:auto;
+}
+nav{
+	align:central;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	magin-top: 15px;
+	font-size:16px;
+	background: #3CF;
+	width:160px;
+	padding-top: 10px;
+	padding-botton: 10px;
+	border-radius:0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition: padding-left 0.6s;
+	
+}
+nav ul li:hover{
+	padding-left: 50px;
+}
